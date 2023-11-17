@@ -25,7 +25,10 @@ const siswaSchema = new mongoose.Schema({
         type: Number,
         required: [true, 'Silahkan isikan jumlah presensi'],
         unique: false
-    }
+    },
+},
+{
+    timestamps: true,
 })
 
 module.exports = mongoose.model('Siswa', siswaSchema)
