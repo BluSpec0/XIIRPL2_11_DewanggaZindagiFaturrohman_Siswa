@@ -21,9 +21,9 @@ const siswaSchema = new mongoose.Schema({
         required: [true, 'Silahkan isikan gender'],
         unique: false
     },  
-    presensi: {
+    kehadiran: {
         type: Number,
-        required: [true, 'Silahkan isikan jumlah presensi'],
+        required: [true, 'Silahkan isikan jumlah kehadiran'],
         unique: false
     },
 },

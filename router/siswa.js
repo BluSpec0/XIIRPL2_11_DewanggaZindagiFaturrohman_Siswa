@@ -7,10 +7,10 @@ router.get('/semuasiswa', siswacontroller.index)
 
 router.get('/siswa/:id', siswacontroller.show)
 
-router.post('/siswa', siswacontroller.store)
+router.post('/tambahsiswa', siswacontroller.store)
 
-router.put('/siswa/:id', siswacontroller.update)
+router.put('/ubahsiswa/:id', siswacontroller.update)
 
-router.delete('/siswa/:id', siswacontroller.delete)    
+router.delete('/hapussiswa/:id', siswacontroller.delete)    
 
 module.exports  = router
